@@ -615,8 +615,8 @@
     "lessonPair": {
       "code": "14",
       "name": "4",
-      "start_time": "22:55",
-      "end_time": "22:57",
+      "start_time": "14:00",
+      "end_time": "15:20",
       "_education_year": "2025"
     },
     "employee": {
@@ -705,8 +705,8 @@
     "lessonPair": {
       "code": "15",
       "name": "5",
-      "start_time": "23:30",
-      "end_time": "23:50",
+      "start_time": "15:30",
+      "end_time": "16:50",
       "_education_year": "2025"
     },
     "employee": {

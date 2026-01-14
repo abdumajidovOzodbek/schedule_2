@@ -6,10 +6,9 @@ import { parse, isWithinInterval, isBefore, isAfter, differenceInSeconds, format
 
 interface LessonCardProps {
   lesson: Lesson;
-  isNext?: boolean;
 }
 
-export function LessonCard({ lesson, isNext }: LessonCardProps) {
+export function LessonCard({ lesson }: LessonCardProps) {
   const [now, setNow] = useState(new Date());
 
   useEffect(() => {
@@ -48,14 +47,12 @@ export function LessonCard({ lesson, isNext }: LessonCardProps) {
       status = "past";
     } else if (isBefore(now, start)) {
       status = "future";
-      // Only show timer for the very next lesson during break
-      if (isNext) {
-        const secondsUntil = differenceInSeconds(start, now);
-        if (secondsUntil < 3600) {
-          const mins = Math.floor(secondsUntil / 60);
-          const secs = secondsUntil % 60;
-          timeLeft = `${mins}m ${secs}s keyin`;
-        }
+      // Show timer for future lessons if they start within 1 hour
+      const secondsUntil = differenceInSeconds(start, now);
+      if (secondsUntil < 3600) {
+        const mins = Math.floor(secondsUntil / 60);
+        const secs = secondsUntil % 60;
+        timeLeft = `${mins}m ${secs}s keyin`;
       }
     }
   }
