@@ -95,9 +95,6 @@ export default function SchedulePage() {
                 >
                   <ChevronRight className="w-5 h-5 text-slate-600" />
                 </button>
-                <div className="p-2.5 rounded-xl border border-indigo-100 bg-indigo-50/50">
-                  <Sparkles className="w-5 h-5 text-indigo-500" />
-                </div>
               </div>
             </div>
             <div className="flex items-center gap-2 text-slate-400 font-semibold uppercase tracking-wider text-xs">
