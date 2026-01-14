@@ -70,34 +70,34 @@ export default function SchedulePage() {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] pb-12 font-sans">
-      <main className="max-w-2xl mx-auto px-4 pt-8">
+      <main className="max-w-2xl mx-auto px-2 sm:px-4 pt-4 sm:pt-8">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white rounded-[32px] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-200/50 overflow-hidden"
+          className="bg-white rounded-2xl sm:rounded-[32px] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-200/50 overflow-hidden"
         >
           {/* Modern Header */}
-          <div className="px-8 pt-8 pb-6">
+          <div className="px-5 sm:px-8 pt-6 sm:pt-8 pb-4 sm:pb-6">
             <div className="flex items-center justify-between mb-3">
-              <h1 className="text-[28px] font-bold text-slate-900 tracking-tight">
+              <h1 className="text-2xl sm:text-[28px] font-bold text-slate-900 tracking-tight">
                 Dars jadvali
               </h1>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 sm:gap-2">
                 <button 
                   onClick={goToPrevDay}
-                  className="p-2.5 rounded-xl border border-slate-200 hover:bg-slate-50 transition-all active:scale-95"
+                  className="p-2 sm:p-2.5 rounded-xl border border-slate-200 hover:bg-slate-50 transition-all active:scale-95"
                 >
                   <ChevronLeft className="w-5 h-5 text-slate-600" />
                 </button>
                 <button 
                   onClick={goToNextDay}
-                  className="p-2.5 rounded-xl border border-slate-200 hover:bg-slate-50 transition-all active:scale-95"
+                  className="p-2 sm:p-2.5 rounded-xl border border-slate-200 hover:bg-slate-50 transition-all active:scale-95"
                 >
                   <ChevronRight className="w-5 h-5 text-slate-600" />
                 </button>
               </div>
             </div>
-            <div className="flex items-center gap-2 text-slate-400 font-semibold uppercase tracking-wider text-xs">
+            <div className="flex items-center gap-2 text-slate-400 font-semibold uppercase tracking-wider text-[10px] sm:text-xs">
               <span className="text-slate-600">{format(currentDate, "d MMMM", { locale: uz })}</span>
               <span className="w-1 h-1 rounded-full bg-slate-300" />
               <span>{format(currentDate, "EEEE", { locale: uz })}</span>
@@ -105,7 +105,7 @@ export default function SchedulePage() {
           </div>
 
           {/* Lesson List */}
-          <div className="px-6 pb-8">
+          <div className="px-3 sm:px-6 pb-6 sm:pb-8">
             <AnimatePresence mode="wait">
               {currentLessons.length === 0 ? (
                 <motion.div

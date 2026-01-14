@@ -70,22 +70,22 @@ export function LessonCard({ lesson }: LessonCardProps) {
       {/* Colored accent bar on the left */}
       <div className={cn("absolute left-0 top-0 bottom-0 w-1.5 transition-colors duration-500", accentColor)} />
 
-      <div className="p-5 pl-7 flex flex-col gap-4">
+      <div className="p-3 sm:p-5 pl-5 sm:pl-7 flex flex-col gap-3 sm:gap-4">
         {/* Header: Subject & Type */}
-        <div className="flex items-start justify-between gap-4">
-          <div className="space-y-1">
-            <h3 className="font-display font-bold text-lg leading-tight text-foreground line-clamp-2 group-hover:text-primary transition-colors">
+        <div className="flex items-start justify-between gap-3 sm:gap-4">
+          <div className="space-y-0.5 sm:space-y-1">
+            <h3 className="font-display font-bold text-base sm:text-lg leading-tight text-foreground line-clamp-2 group-hover:text-primary transition-colors">
               {lesson.subjectName}
             </h3>
             {status === "current" && (
-              <div className="flex items-center gap-1.5 text-emerald-600 text-xs font-bold animate-pulse">
+              <div className="flex items-center gap-1.5 text-emerald-600 text-[10px] sm:text-xs font-bold animate-pulse">
                 <Timer className="w-3 h-3" />
                 HOZIR DAVOM ETMОQDA
               </div>
             )}
           </div>
           <span className={cn(
-            "shrink-0 px-2.5 py-1 rounded-full text-xs font-semibold border whitespace-nowrap",
+            "shrink-0 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-semibold border whitespace-nowrap",
             badgeColor
           )}>
             {lesson.lessonType}
@@ -93,17 +93,17 @@ export function LessonCard({ lesson }: LessonCardProps) {
         </div>
 
         {/* Details Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-muted-foreground">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs sm:text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
-            <div className="p-1.5 rounded-lg bg-muted/50">
-              <Clock className="w-4 h-4 text-primary/70" />
+            <div className="p-1 sm:p-1.5 rounded-lg bg-muted/50">
+              <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary/70" />
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-foreground/90">
+              <span className="font-bold text-foreground/90 leading-tight">
                 {lesson.startTime} — {lesson.endTime}
               </span>
               {timeLeft && (
-                <span className="text-[10px] font-medium text-primary/80 uppercase tracking-wider">
+                <span className="text-[9px] sm:text-[10px] font-medium text-primary/80 uppercase tracking-wider">
                   {timeLeft}
                 </span>
               )}
@@ -111,19 +111,19 @@ export function LessonCard({ lesson }: LessonCardProps) {
           </div>
           
           <div className="flex items-center gap-2">
-            <div className="p-1.5 rounded-lg bg-muted/50">
-              <MapPin className="w-4 h-4 text-primary/70" />
+            <div className="p-1 sm:p-1.5 rounded-lg bg-muted/50">
+              <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary/70" />
             </div>
-            <span className="truncate font-medium">
+            <span className="truncate font-medium leading-tight">
               {lesson.auditoriumName} • {lesson.buildingName}
             </span>
           </div>
 
           <div className="flex items-center gap-2 sm:col-span-2">
-            <div className="p-1.5 rounded-lg bg-muted/50">
-              <User className="w-4 h-4 text-primary/70" />
+            <div className="p-1 sm:p-1.5 rounded-lg bg-muted/50">
+              <User className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary/70" />
             </div>
-            <span className="truncate font-medium">{lesson.employeeName}</span>
+            <span className="truncate font-medium leading-tight">{lesson.employeeName}</span>
           </div>
         </div>
 
