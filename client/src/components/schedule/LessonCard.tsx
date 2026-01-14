@@ -47,12 +47,7 @@ export function LessonCard({ lesson }: LessonCardProps) {
       status = "past";
     } else if (isBefore(now, start)) {
       status = "future";
-      const secondsUntil = differenceInSeconds(start, now);
-      if (secondsUntil < 3600) {
-        const mins = Math.floor(secondsUntil / 60);
-        const secs = secondsUntil % 60;
-        timeLeft = `${mins}m ${secs}s keyin`;
-      }
+      // Removed upcoming lesson countdown as requested
     }
   }
 
