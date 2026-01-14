@@ -2,7 +2,7 @@ import { Lesson } from "@shared/schema";
 import { cn } from "@/lib/utils";
 import { MapPin, User, Clock, BookOpen, Timer } from "lucide-react";
 import { useState, useEffect } from "react";
-import { parse, isWithinInterval, isBefore, isAfter, differenceInMinutes, format } from "date-fns";
+import { parse, isWithinInterval, isBefore, isAfter, differenceInSeconds, format } from "date-fns";
 
 interface LessonCardProps {
   lesson: Lesson;
@@ -12,7 +12,7 @@ export function LessonCard({ lesson }: LessonCardProps) {
   const [now, setNow] = useState(new Date());
 
   useEffect(() => {
-    const timer = setInterval(() => setNow(new Date()), 60000);
+    const timer = setInterval(() => setNow(new Date()), 1000);
     return () => clearInterval(timer);
   }, []);
 
@@ -28,26 +28,30 @@ export function LessonCard({ lesson }: LessonCardProps) {
   let progress = 0;
 
   if (isToday) {
-    // Force current date to ensure parse uses correct day context
     const start = parse(lesson.startTime, "HH:mm", now);
     const end = parse(lesson.endTime, "HH:mm", now);
 
-    // Add a small buffer (e.g., 1 minute) to account for slight clock drift
     const isNow = isWithinInterval(now, { start, end });
 
     if (isNow) {
       status = "current";
-      const totalMinutes = differenceInMinutes(end, start);
-      const passedMinutes = differenceInMinutes(now, start);
-      progress = Math.min(100, Math.max(0, (passedMinutes / totalMinutes) * 100));
-      timeLeft = `${differenceInMinutes(end, now)} min qoldi`;
+      const totalSeconds = differenceInSeconds(end, start);
+      const passedSeconds = differenceInSeconds(now, start);
+      progress = Math.min(100, Math.max(0, (passedSeconds / totalSeconds) * 100));
+      
+      const remainingSeconds = differenceInSeconds(end, now);
+      const mins = Math.floor(remainingSeconds / 60);
+      const secs = remainingSeconds % 60;
+      timeLeft = `${mins}m ${secs}s qoldi`;
     } else if (isAfter(now, end)) {
       status = "past";
     } else if (isBefore(now, start)) {
       status = "future";
-      const minutesUntil = differenceInMinutes(start, now);
-      if (minutesUntil < 60) {
-        timeLeft = `${minutesUntil} min keyin`;
+      const secondsUntil = differenceInSeconds(start, now);
+      if (secondsUntil < 3600) {
+        const mins = Math.floor(secondsUntil / 60);
+        const secs = secondsUntil % 60;
+        timeLeft = `${mins}m ${secs}s keyin`;
       }
     }
   }
