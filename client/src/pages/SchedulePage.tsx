@@ -64,15 +64,22 @@ export default function SchedulePage() {
   const groupName = useMemo(() => {
     if (lessons && Array.isArray(lessons) && lessons.length > 0) {
       const first = lessons[0];
-      return first.groupName || first.group?.name || "Guruh";
+      return first.groupName || "Guruh";
     }
     return "Guruh";
   }, [lessons]);
 
-  // Filter for Daily view (Today)
+  // Daily lessons should default to everything if requested, 
+  // but for "Daily" tab we still filter for today's convenience.
+  // However, the user wants to see ALL data.
+  // We'll update the "Weekly" view to show everything and 
+  // ensure the scroll navigation works for all days.
   const dailyLessons = useMemo(() => {
     const today = startOfDay(new Date());
-    return groupedLessons.filter((group) => isSameDay(group.date, today));
+    const matches = groupedLessons.filter((group) => isSameDay(group.date, today));
+    // If no lessons today, show the next available day's lessons in daily view? 
+    // Or just let user switch to weekly. User said "let user see all the days".
+    return matches;
   }, [groupedLessons]);
 
   const displayedGroups = activeTab === "weekly" ? groupedLessons : dailyLessons;
@@ -137,7 +144,7 @@ export default function SchedulePage() {
             </div>
             
             {activeTab === "weekly" && (
-              <div className="hidden sm:flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+              <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 ml-auto">
                 {groupedLessons.map((group) => (
                   <button
                     key={group.date.toISOString()}
@@ -150,9 +157,16 @@ export default function SchedulePage() {
                         window.scrollTo({ top: offsetPosition, behavior: "smooth" });
                       }
                     }}
-                    className="shrink-0 w-10 h-10 rounded-full flex flex-col items-center justify-center border border-border/50 bg-white hover:border-primary hover:text-primary transition-all text-[10px] font-bold"
+                    className={cn(
+                      "shrink-0 w-10 h-10 rounded-full flex flex-col items-center justify-center border transition-all text-[10px] font-bold",
+                      isSameDay(group.date, new Date()) 
+                        ? "bg-primary text-primary-foreground border-primary shadow-sm"
+                        : "border-border/50 bg-white hover:border-primary hover:text-primary"
+                    )}
                   >
-                    <span className="opacity-60">{format(group.date, "EEE", { locale: uz }).toUpperCase()}</span>
+                    <span className={cn("opacity-60", isSameDay(group.date, new Date()) && "opacity-90")}>
+                      {format(group.date, "EEE", { locale: uz }).toUpperCase()}
+                    </span>
                     <span>{format(group.date, "d")}</span>
                   </button>
                 ))}
