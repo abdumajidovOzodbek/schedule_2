@@ -28,14 +28,18 @@ export function LessonCard({ lesson }: LessonCardProps) {
   let progress = 0;
 
   if (isToday) {
+    // Force current date to ensure parse uses correct day context
     const start = parse(lesson.startTime, "HH:mm", now);
     const end = parse(lesson.endTime, "HH:mm", now);
 
-    if (isWithinInterval(now, { start, end })) {
+    // Add a small buffer (e.g., 1 minute) to account for slight clock drift
+    const isNow = isWithinInterval(now, { start, end });
+
+    if (isNow) {
       status = "current";
       const totalMinutes = differenceInMinutes(end, start);
       const passedMinutes = differenceInMinutes(now, start);
-      progress = (passedMinutes / totalMinutes) * 100;
+      progress = Math.min(100, Math.max(0, (passedMinutes / totalMinutes) * 100));
       timeLeft = `${differenceInMinutes(end, now)} min qoldi`;
     } else if (isAfter(now, end)) {
       status = "past";
