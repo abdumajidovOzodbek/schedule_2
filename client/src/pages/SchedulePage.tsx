@@ -46,6 +46,21 @@ export default function SchedulePage() {
   const sortedDates = Array.from(allGroupedLessons.keys()).sort();
   const currentIndex = sortedDates.indexOf(currentDate.toISOString());
 
+  // Find the next lesson for today
+  const nextLessonId = useMemo(() => {
+    const today = startOfDay(new Date());
+    if (!isSameDay(currentDate, today)) return null;
+    
+    const now = new Date();
+    // Get the first lesson that hasn't started yet
+    const next = currentLessons.find(l => {
+      const start = parse(l.startTime, "HH:mm", now);
+      return isBefore(now, start);
+    });
+    
+    return next?.id;
+  }, [currentLessons, currentDate]);
+
   const goToPrevDay = () => {
     if (currentIndex > 0) setCurrentDate(new Date(sortedDates[currentIndex - 1]));
     else setCurrentDate(subDays(currentDate, 1));
@@ -130,7 +145,11 @@ export default function SchedulePage() {
                   className="space-y-4"
                 >
                   {currentLessons.map((lesson) => (
-                    <LessonCard key={lesson.id} lesson={lesson} />
+                    <LessonCard 
+                      key={lesson.id} 
+                      lesson={lesson} 
+                      isNext={lesson.id === nextLessonId}
+                    />
                   ))}
                 </motion.div>
               )}
