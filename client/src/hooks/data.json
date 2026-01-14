@@ -1438,5 +1438,1805 @@
     "lesson_date": 1768608000,
     "updated_at": 1765514287,
     "_week": 13541
+  },
+  {
+    "id": 218331,
+    "subject": {
+        "id": 542,
+        "name": "Tizimli dasturlash I",
+        "code": "DATB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "11",
+        "name": "1",
+        "start_time": "09:00",
+        "end_time": "10:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 691,
+        "name": "TAHIROV B. N."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768780800,
+    "updated_at": 1765515589,
+    "_week": 13542
+  },
+  {
+    "id": 218334,
+    "subject": {
+        "id": 554,
+        "name": "Tarmoqlarni ma'muriy boshqarish",
+        "code": "TMBB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "12",
+        "name": "2",
+        "start_time": "10:30",
+        "end_time": "11:50",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 695,
+        "name": "SOATOV O. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768780800,
+    "updated_at": 1765515589,
+    "_week": 13542
+  },
+  {
+    "id": 218336,
+    "subject": {
+        "id": 554,
+        "name": "Tarmoqlarni ma'muriy boshqarish",
+        "code": "TMBB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 46,
+        "name": "301 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "13",
+        "name": "3",
+        "start_time": "12:00",
+        "end_time": "13:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 695,
+        "name": "SOATOV O. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768780800,
+    "updated_at": 1765518904,
+    "_week": 13542
+  },
+  {
+    "id": 218940,
+    "subject": {
+        "id": 531,
+        "name": "Diskret matematika va matematik mantiq I",
+        "code": "DMMB5.1"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 4,
+        "name": "Matematika",
+        "code": "516-103-03",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 14,
+        "active": true
+    },
+    "auditorium": {
+        "code": 48,
+        "name": "303 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "14",
+        "name": "4",
+        "start_time": "14:00",
+        "end_time": "15:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 123,
+        "name": "KARIMOV D. I."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768780800,
+    "updated_at": 1765612861,
+    "_week": 13542
+  },
+  {
+    "id": 218943,
+    "subject": {
+        "id": 540,
+        "name": "Algoritmlar va berilganlar strukturasi II",
+        "code": "ABSB6.2"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 66,
+        "name": "lab 03 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "13",
+        "name": "3",
+        "start_time": "12:00",
+        "end_time": "13:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 694,
+        "name": "QULDASHEVA N. K."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768867200,
+    "updated_at": 1768387491,
+    "_week": 13542
+  },
+  {
+    "id": 218333,
+    "subject": {
+        "id": 542,
+        "name": "Tizimli dasturlash I",
+        "code": "DATB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 48,
+        "name": "303 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "14",
+        "name": "4",
+        "start_time": "14:00",
+        "end_time": "15:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 691,
+        "name": "TAHIROV B. N."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768867200,
+    "updated_at": 1765519764,
+    "_week": 13542
+  },
+  {
+    "id": 218325,
+    "subject": {
+        "id": 531,
+        "name": "Diskret matematika va matematik mantiq I",
+        "code": "DMMB5.1"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 4,
+        "name": "Matematika",
+        "code": "516-103-03",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 14,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "15",
+        "name": "5",
+        "start_time": "15:30",
+        "end_time": "16:50",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 91,
+        "name": "AXTAMALIYEV SH. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768867200,
+    "updated_at": 1767673682,
+    "_week": 13542
+  },
+  {
+    "id": 218328,
+    "subject": {
+        "id": 540,
+        "name": "Algoritmlar va berilganlar strukturasi II",
+        "code": "ABSB6.2"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "13",
+        "name": "3",
+        "start_time": "12:00",
+        "end_time": "13:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 694,
+        "name": "QULDASHEVA N. K."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768953600,
+    "updated_at": 1765515589,
+    "_week": 13542
+  },
+  {
+    "id": 218327,
+    "subject": {
+        "id": 531,
+        "name": "Diskret matematika va matematik mantiq I",
+        "code": "DMMB5.1"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 4,
+        "name": "Matematika",
+        "code": "516-103-03",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 14,
+        "active": true
+    },
+    "auditorium": {
+        "code": 46,
+        "name": "301 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "14",
+        "name": "4",
+        "start_time": "14:00",
+        "end_time": "15:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 123,
+        "name": "KARIMOV D. I."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768953600,
+    "updated_at": 1765519614,
+    "_week": 13542
+  },
+  {
+    "id": 219594,
+    "subject": {
+        "id": 554,
+        "name": "Tarmoqlarni ma'muriy boshqarish",
+        "code": "TMBB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "15",
+        "name": "5",
+        "start_time": "15:30",
+        "end_time": "16:50",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 695,
+        "name": "SOATOV O. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768953600,
+    "updated_at": 1765612103,
+    "_week": 13542
+  },
+  {
+    "id": 218946,
+    "subject": {
+        "id": 542,
+        "name": "Tizimli dasturlash I",
+        "code": "DATB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 66,
+        "name": "lab 03 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "15",
+        "name": "5",
+        "start_time": "15:30",
+        "end_time": "16:50",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 691,
+        "name": "TAHIROV B. N."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1768953600,
+    "updated_at": 1765612916,
+    "_week": 13542
+  },
+  {
+    "id": 218321,
+    "subject": {
+        "id": 881,
+        "name": "Berilganlar bazasi II",
+        "code": "MBZB5.2."
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 66,
+        "name": "lab 03 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "12",
+        "name": "Laboratoriya"
+    },
+    "lessonPair": {
+        "code": "12",
+        "name": "2",
+        "start_time": "10:30",
+        "end_time": "11:50",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 688,
+        "name": "OTAXONOV A. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769040000,
+    "updated_at": 1765608229,
+    "_week": 13542
+  },
+  {
+    "id": 218330,
+    "subject": {
+        "id": 540,
+        "name": "Algoritmlar va berilganlar strukturasi II",
+        "code": "ABSB6.2"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 48,
+        "name": "303 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "13",
+        "name": "3",
+        "start_time": "12:00",
+        "end_time": "13:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 694,
+        "name": "QULDASHEVA N. K."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769040000,
+    "updated_at": 1765518947,
+    "_week": 13542
+  },
+  {
+    "id": 218326,
+    "subject": {
+        "id": 531,
+        "name": "Diskret matematika va matematik mantiq I",
+        "code": "DMMB5.1"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 4,
+        "name": "Matematika",
+        "code": "516-103-03",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 14,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "14",
+        "name": "4",
+        "start_time": "14:00",
+        "end_time": "15:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 91,
+        "name": "AXTAMALIYEV SH. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769040000,
+    "updated_at": 1767673709,
+    "_week": 13542
+  },
+  {
+    "id": 218329,
+    "subject": {
+        "id": 540,
+        "name": "Algoritmlar va berilganlar strukturasi II",
+        "code": "ABSB6.2"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "11",
+        "name": "1",
+        "start_time": "09:00",
+        "end_time": "10:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 694,
+        "name": "QULDASHEVA N. K."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769126400,
+    "updated_at": 1765515589,
+    "_week": 13542
+  },
+  {
+    "id": 218338,
+    "subject": {
+        "id": 881,
+        "name": "Berilganlar bazasi II",
+        "code": "MBZB5.2."
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "12",
+        "name": "2",
+        "start_time": "10:30",
+        "end_time": "11:50",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 769,
+        "name": "BEKMIRZAYEV O. N."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769126400,
+    "updated_at": 1765515589,
+    "_week": 13542
+  },
+  {
+    "id": 218337,
+    "subject": {
+        "id": 554,
+        "name": "Tarmoqlarni ma'muriy boshqarish",
+        "code": "TMBB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 46,
+        "name": "301 (II-bino)",
+        "auditoriumType": {
+            "code": "13",
+            "name": "Amaliyot"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 30,
+        "active": true
+    },
+    "trainingType": {
+        "code": "13",
+        "name": "Amaliy"
+    },
+    "lessonPair": {
+        "code": "13",
+        "name": "3",
+        "start_time": "12:00",
+        "end_time": "13:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 695,
+        "name": "SOATOV O. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769126400,
+    "updated_at": 1765519007,
+    "_week": 13542
+  },
+  {
+    "id": 218339,
+    "subject": {
+        "id": 881,
+        "name": "Berilganlar bazasi II",
+        "code": "MBZB5.2."
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "14",
+        "name": "4",
+        "start_time": "14:00",
+        "end_time": "15:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 769,
+        "name": "BEKMIRZAYEV O. N."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769212800,
+    "updated_at": 1765515589,
+    "_week": 13542
+  },
+  {
+    "id": 218332,
+    "subject": {
+        "id": 542,
+        "name": "Tizimli dasturlash I",
+        "code": "DATB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "15",
+        "name": "5",
+        "start_time": "15:30",
+        "end_time": "16:50",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 691,
+        "name": "TAHIROV B. N."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769212800,
+    "updated_at": 1765515589,
+    "_week": 13542
+  },
+  {
+    "id": 218335,
+    "subject": {
+        "id": 554,
+        "name": "Tarmoqlarni ma'muriy boshqarish",
+        "code": "TMBB5"
+    },
+    "semester": {
+        "id": 5,
+        "code": "15",
+        "name": "5-semestr"
+    },
+    "educationYear": {
+        "code": "2025",
+        "name": "2025-2026",
+        "current": true
+    },
+    "group": {
+        "id": 65,
+        "name": "ITS 23-10",
+        "educationLang": {
+            "code": "11",
+            "name": "O‘zbek"
+        }
+    },
+    "faculty": {
+        "id": 15,
+        "name": "Gumanitar va raqamli texnologiyalar fakulteti",
+        "code": "516-104",
+        "structureType": {
+            "code": "11",
+            "name": "Fakultet"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": null,
+        "active": true
+    },
+    "department": {
+        "id": 2,
+        "name": "Raqamli texnologiyalar ",
+        "code": "516-104-01",
+        "structureType": {
+            "code": "12",
+            "name": "Kafedra"
+        },
+        "localityType": {
+            "code": "11",
+            "name": "Mahalliy"
+        },
+        "parent": 15,
+        "active": true
+    },
+    "auditorium": {
+        "code": 57,
+        "name": "402 (II-bino)",
+        "auditoriumType": {
+            "code": "11",
+            "name": "Ma’ruza"
+        },
+        "building": {
+            "id": 2,
+            "name": "II-BINO"
+        },
+        "volume": 120,
+        "active": true
+    },
+    "trainingType": {
+        "code": "11",
+        "name": "Ma’ruza"
+    },
+    "lessonPair": {
+        "code": "16",
+        "name": "6",
+        "start_time": "17:00",
+        "end_time": "18:20",
+        "_education_year": "2025"
+    },
+    "employee": {
+        "id": 695,
+        "name": "SOATOV O. A."
+    },
+    "weekStartTime": 1768780800,
+    "weekEndTime": 1769212800,
+    "lesson_date": 1769212800,
+    "updated_at": 1765515589,
+    "_week": 13542
   }
 ]
